@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+header h1:first-child{
+    color: #A3A5AE;
+    font-size: 45px;
+}
+header h1:nth-child(2){
+    color: #4C4E61;
+    font-size: 43px;
+    padding-bottom: 35px;
+}
+header p {
+    width: 49%;
+    font-size: 25px;
+    margin: auto;
+}
+.sec1 , .sec2 ,.sec3 ,.sec4 {
+border: 1px solid black;
+width: 20%;
+box-shadow: 0px 10px 30px -20px darkblue;
+border-radius: 5px;
+padding: 30px;
+}
+.sec1 {
+    margin: auto;
+    padding: 10px 20px;
+    border-top: 5px solid #EA5353 ;
+    
+}
+.sec4 {
+    margin: auto;
+    padding: 10px 20px;
+    border-top: 5px solid #FCAF4A ;
+}
+
+.dz{
+    display: flex;
+    position: relative;
+    margin: 30px 0px;
+}
+.sec2{
+    position: absolute;
+    left: 250px;
+}
+.sec3{
+    position: relative;
+    left: 63%;
+}
